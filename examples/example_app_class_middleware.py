@@ -5,7 +5,7 @@ from typing import Any
 # Ensure the src package is on the path
 sys.path.append(os.path.join(os.getcwd(), "src"))
 
-from flet_router import FletRouter, MiddlewareBase, MiddlewareContext, Params
+from flet_routing import FletRouter, MiddlewareBase, MiddlewareContext, Params
 from flet import (
     Page,
     View,

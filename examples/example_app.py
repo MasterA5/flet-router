@@ -5,7 +5,7 @@ from typing import Optional
 # Append the path to include the FletRouter module from src directory
 sys.path.append(os.path.join(os.getcwd(), "src", "flet_router", "router.py"))
 
-from flet_router import FletRouter, MiddlewareContext, Params, MiddlewareBase, BaseView
+from flet_routing import FletRouter, MiddlewareContext, Params, MiddlewareBase, BaseView
 from flet import * # <- Bad practice, but for simplicity in this example. In production, import only what you need.
 import httpx
 import asyncio
