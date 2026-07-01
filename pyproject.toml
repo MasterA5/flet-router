@@ -1,0 +1,22 @@
+[project]
+name = "flet-router"
+version = "1.0.0"
+description = "A powerful routing library for Flet applications with authentication, middleware, and type safety"
+readme = "README.md"
+authors = [
+    { name = "MasterA5", email = "agustin090806090806@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "flet==0.28.3",
+    "cryptography"
+]
+
+[build-system] 
+requires = ["setuptools>=68", "wheel"] 
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "flet[all]==0.28.3",
+]
